@@ -83,10 +83,33 @@ customer-churn-prediction/
 ```
 
 ---
+## Exploratory Data Analysis
 
-# Exploratory Data Analysis
+The dataset was explored to identify patterns and factors associated with customer churn.
 
-Several important patterns were identified during exploratory analysis.
+### 1. Customer Churn Distribution
+
+![Customer Churn Distribution](visualizations/churn_distribution.png)
+
+The dataset contains more customers who stayed than customers who churned, indicating class imbalance.
+
+### 2. Churn Rate by Contract Type
+
+![Churn Rate by Contract](visualizations/churn_by_contract.png)
+
+Month-to-month customers have a substantially higher churn rate than customers on one-year and two-year contracts.
+
+### 3. Churn Rate by Payment Method
+
+![Churn Rate by Payment Method](visualizations/churn_by_payment_method.png)
+
+Electronic-check customers show the highest churn rate among the payment methods analyzed.
+
+### 4. Monthly Charges vs Churn
+
+![Monthly Charges vs Churn](visualizations/monthly_charges_vs_churn.png)
+
+Customers who churned generally show higher monthly charges than customers who stayed.
 
 ## 1. Churn Distribution
 
